@@ -16,9 +16,7 @@ _(Lớp BootCamp Sáng 12 - Năm 2024 - Khoá Front-End)_
 
 2. Dựa trên layout được cung cấp => Xây dựng các chức năng theo yêu cầu.
 
-<hr>
-
-# ĐỀ BÀI - Dự án Tính tiền Uber
+## ĐỀ BÀI - Dự án Tính tiền Uber
 
 - Cho người dùng chọn 1 trong 3 loại Uber:
 
