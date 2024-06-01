@@ -54,37 +54,17 @@ _(Lớp BootCamp Sáng 12 - Năm 2024 - Khoá Front-End)_
 
 - Tiền trả = giá km đầu tiên \* số km
 
-```mermaid
-graph LR
-    A(1km) --> B[Tiền trả = giá km đầu tiên * số km]
-```
-
 ##### 2. Khi số km > 1 và <= 19
 
 - Tiền trả = giá km đầu tiên + (số km - 1) \* Giá km từ 1_19
-
-```mermaid
-graph LR
-    A[1km] --> B[19km] --> C[Tiền trả = giá km đầu tiên + (số km - 1) * Giá km từ 1_19]
-```
 
 ##### 3. Khi số km > 19
 
 - Tiền trả = giá km đầu tiên + 18 _ Giá km từ 1_19 + (số km - 19) _ giá trên 19
 
-```mermaid
-graph LR
-    A[1km] --> B[18km] --> C[19km] --> D[Tiền trả = giá km đầu tiên + 18 * Giá km từ 1_19 + (số km - 19) * giá trên 19]
-```
-
 ##### 4. Thời gian chờ >= 3 phút
 
 - Tiền chờ = số lần chờ \* giá chờ
-
-```mermaid
-graph LR
-    A(3min) --> B(6min) --> C(9min) --> D[Tiền chờ = số lần chờ * giá chờ]
-```
 
 <hr>
 
