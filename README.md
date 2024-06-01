@@ -65,7 +65,7 @@ graph LR
 
 ```mermaid
 graph LR
-    A(1km) --> B(19km) --> C[Tiền trả = giá km đầu tiên + (số km - 1) * Giá km từ 1_19]
+    A[1km] --> B[19km] --> C[Tiền trả = giá km đầu tiên + (số km - 1) * Giá km từ 1_19]
 ```
 
 ##### 3. Khi số km > 19
@@ -74,7 +74,7 @@ graph LR
 
 ```mermaid
 graph LR
-    A(1km) --> B(18km) --> C(19km) --> D[Tiền trả = giá km đầu tiên + 18 * Giá km từ 1_19 + (số km - 19) * giá trên 19]
+    A[1km] --> B[18km] --> C[19km] --> D[Tiền trả = giá km đầu tiên + 18 * Giá km từ 1_19 + (số km - 19) * giá trên 19]
 ```
 
 ##### 4. Thời gian chờ >= 3 phút
